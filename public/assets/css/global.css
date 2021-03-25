@@ -84,7 +84,12 @@ a {
 h1,
 h2,
 h3 {
+	font-family: Roboto, sans-serif;
 	color: #fff;
+}
+
+p {
+	color: #b3b3b3;
 }
 
 /* text helpers */
@@ -93,8 +98,20 @@ h3 {
 	letter-spacing: 0.25rem;
 }
 
+.txt-space-large {
+	letter-spacing: 0.75rem;
+}
+
 .txt-upper {
 	text-transform: uppercase;
+}
+
+.title {
+	font-family: Roboto, sans-serif;
+	color: #fff;
+	letter-spacing: 1rem;
+	font-size: 4rem;
+	font-weight: 400;
 }
 
 /* navigation */

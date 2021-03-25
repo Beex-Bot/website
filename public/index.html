@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beex Bot</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/global.css">
+</head>
+<body>
+    
+    <nav class="mobileNav" id="mobileNav" onclick="mobileNav('close')">
+        <div class="nav-items">
+            <a class="nav-item active" href="./"><span class="txt-space txt-upper">Home</span></a>
+            <a class="nav-item" href="#"><span class="txt-space txt-upper">About</span></a>
+            <a class="nav-item" href="#"><span class="txt-space txt-upper">Testimonials</span></a>
+            <a class="nav-item" href="#"><span class="txt-space txt-upper">Purchase</span></a>
+            <br>
+            <a class="nav-item" href="#"><span class="txt-space txt-upper">Discord</span></a>
+            <a class="nav-item" href="#"><span class="txt-space txt-upper">Telegram</span></a>
+        </div>
+    </nav>
+    <img class="global-big-bee" src="https://tmp.flolon.dev/big-bee.svg">
+    <nav class="nav" id="nav">
+        <div class="nav-container" id="desktopNav">
+            <a href="#"><img class="logo" src="https://tmp.flolon.dev/logo_134x134.png" height="67px"></a>
+            <span class="nav-items nav-desktop">
+                <a class="nav-item active" href="./"><span class="txt-space txt-upper">Home</span></a>
+                <a class="nav-item" href="#"><span class="txt-space txt-upper">About</span></a>
+                <a class="nav-item" href="#"><span class="txt-space txt-upper">Testimonials</span></a>
+                <a class="nav-item" href="#"><span class="txt-space txt-upper">Purchase</span></a>
+            </span>
+            <span class="flex-grow"></span>
+            <span class="nav-items nav-desktop right">
+                <a class="nav-item" href="#"><img src="https://tmp.flolon.dev/discord-grey-2.svg" height="35px"></a>
+                <a class="nav-item" href="#"><img src="https://tmp.flolon.dev/telegram-grey-2.svg" height="35px"></a>
+            </span>
+            <span class="nav-mobile">
+                <span id="openMenu" class="nav-item" onclick="mobileNav('open')"><img src="https://tmp.flolon.dev/menu-grey.svg" height="35px"></span>
+                <span id="closeMenu" class="nav-item" onclick="mobileNav('close')"><img src="https://tmp.flolon.dev/close-grey.svg" height="35px"></span>
+            </span>
+        </div>
+    </nav>
+    
+    <div class="nav-height"></div>
+    
+    <div class="container" id="pageContainer" style="margin-top: 1rem; min-height: 150vh">
+        <h1>This is "Content"</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus ex quis eleifend imperdiet. Donec tincidunt aliquet elit, et ornare nunc pellentesque vitae. Proin fermentum id lectus venenatis rhoncus. Morbi pellentesque justo nibh, non congue nibh lacinia eget. Nulla mattis ornare fermentum. Curabitur a nisl a metus egestas imperdiet euismod a ipsum. Duis congue nibh a faucibus porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec cursus ex dolor, vel lacinia nisl tincidunt sit amet.</p>
+    
+    </div>
+
+    <script src="./assets/js/global.js"></script>
+
+</body>
+</html>

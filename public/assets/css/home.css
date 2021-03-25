@@ -1,3 +1,22 @@
+.hero > .row {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 890px) {
+    .hero > .row {
+        display: block;
+    }
+
+    .hero > .row .col {
+        text-align: center;
+    }
+}
+
+.hero > .row .col {
+    margin-bottom: 1.5rem;
+}
+
 .hero #demo {
     width: 100%;
     height: auto;

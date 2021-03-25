@@ -22,8 +22,8 @@
             <a class="nav-item" href="#"><span class="txt-space txt-upper">Testimonials</span></a>
             <a class="nav-item" href="#"><span class="txt-space txt-upper">Purchase</span></a>
             <br>
-            <a class="nav-item" href="#"><span class="txt-space txt-upper">Discord</span></a>
-            <a class="nav-item" href="#"><span class="txt-space txt-upper">Telegram</span></a>
+            <a class="nav-item" href="./discord"><span class="txt-space txt-upper">Discord</span></a>
+            <a class="nav-item" href="./telegram"><span class="txt-space txt-upper">Telegram</span></a>
         </div>
     </nav>
     <img class="global-big-bee" src="./assets/images/big-bee.svg">
@@ -38,8 +38,8 @@
             </span>
             <span class="flex-grow"></span>
             <span class="nav-items nav-desktop right">
-                <a class="nav-item" href="#"><img src="./assets/images/discord-grey-2.svg" height="35px"></a>
-                <a class="nav-item" href="#"><img src="./assets/images/telegram-grey-2.svg" height="35px"></a>
+                <a class="nav-item" href="./discord" title="Discord"><img src="./assets/images/discord-grey-2.svg" height="35px"></a>
+                <a class="nav-item" href="./telegram" title="Telegram"><img src="./assets/images/telegram-grey-2.svg" height="35px"></a>
             </span>
             <span class="nav-mobile">
                 <span id="openMenu" class="nav-item" onclick="mobileNav('open')"><img src="./assets/images/menu-grey.svg" height="35px"></span>
@@ -50,11 +50,25 @@
     
     <div class="nav-height"></div>
     
-    <div class="container" id="pageContainer" style="margin-top: 1rem;">
-        <div class="title">BEEX</div>
-        <p>The swiss army knife of pumps.</p>
+    <div class="container" id="pageContainer" style="margin-top: 1rem; min-height: 100vh;">
+
+        <div class="hero">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div style="vertical-align: middle;">
+                        <div class="title">BEEX</div>
+                        <p>The swiss army knife of pumps.</p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <video width="100%">
+                        <source src="./assets/videos/demo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
     
-    </div>
+    </div><!-- /#pageContainer-->
 
     <script src="./assets/js/global.js"></script>
 

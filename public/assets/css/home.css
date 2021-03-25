@@ -1,0 +1,7 @@
+.hero #demo {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 84px -23px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 84px -23px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 84px -23px rgb(0 0 0 / 75%);
+}

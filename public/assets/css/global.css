@@ -236,7 +236,7 @@ p {
 	z-index: 100;
 	top: 100px;
 	left: 0;
-	/* 	backdrop-filter: blur(3px); */
+	backdrop-filter: blur(3px);
 	background-color: rgba(0, 0, 0, 0.56);
 }
 

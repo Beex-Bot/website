@@ -111,7 +111,7 @@ p {
 /* text helpers */
 
 .txt-space {
-	letter-spacing: 0.25rem;
+	letter-spacing: 0.2rem;
 }
 
 .txt-space-large {
@@ -170,7 +170,7 @@ p {
 }
 
 .nav-items {
-	margin-left: 0.65rem;
+	margin-left: 0.55rem;
 }
 
 .nav-item {

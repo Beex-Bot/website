@@ -6,6 +6,8 @@ function $(id) {
 	}
 }
 
+window.onload = scrollFunction();
+
 window.onscroll = function () {
 	scrollFunction();
 };

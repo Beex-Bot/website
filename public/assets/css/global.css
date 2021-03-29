@@ -156,7 +156,7 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	min-height: 100px;
+	min-height: 105px;
 	line-height: 0;
 }
 
@@ -221,7 +221,7 @@ p {
 }
 
 .nav-height {
-	min-height: 100px;
+	min-height: 105px;
 }
 
 #closeMenu {

@@ -118,6 +118,10 @@ p {
 	letter-spacing: 0.75rem;
 }
 
+.txt-space-x-large {
+	letter-spacing: 1rem;
+}
+
 .txt-upper {
 	text-transform: uppercase;
 }
@@ -125,7 +129,6 @@ p {
 .title {
 	font-family: Roboto, sans-serif;
 	color: #fff;
-	letter-spacing: 1rem;
 	font-size: 4.25rem;
 	font-weight: 400;
 }
@@ -157,7 +160,7 @@ p {
 }
 
 .nav .nav-container {
-	padding: 0 1.75rem;
+	padding: 0 1.55rem;
 }
 
 .nav .logo {
@@ -166,15 +169,20 @@ p {
 }
 
 .nav-items {
-	margin-left: 0.75rem;
+	margin-left: 1.55rem;
 }
 
 .nav-item {
-	margin-left: 1.25rem;
-	padding: 0.3rem;
+	margin-left: .35rem;
+	padding: .45rem .8rem;
+	border-radius: 4px;
 	color: #fff;
 	transition: all 0.1s ease-in-out;
 	cursor: pointer;
+}
+
+.nav-item .txt-space {
+	padding-left: .2rem;
 }
 
 .nav .nav-items.right .nav-item {
@@ -186,14 +194,9 @@ p {
 }
 
 .nav-item.active {
-	padding: .45rem .8rem;
 	background-color: rgba(255, 204, 0, 0.9);
 	color: #2b2b2b;
-	border-radius: 4px;
-}
-
-.nav-item.active .txt-space {
-	padding-left: .2rem;
+	font-weight: 600;
 }
 
 .nav-item img {

@@ -186,6 +186,7 @@ p {
 }
 
 .nav .nav-items.right .nav-item {
+	padding: .25rem;
 	margin-left: 0.75rem;
 }
 

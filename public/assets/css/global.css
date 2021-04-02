@@ -178,7 +178,7 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	overflow-y: hidden;
+	overflow: hidden;
 	background-color: transparent;
 }
 
@@ -352,6 +352,8 @@ p {
 
 .info {
 	position: relative;
+	overflow-x: hidden;
+	word-break: break-all;
 	/* background-color: #e9bb06; */
 	padding: 1rem 0;
 	background-color: rgba(249, 200, 6, 0.9);
@@ -362,6 +364,19 @@ p {
 	padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 690px) {
+	.info.padding {
+		padding: 1rem 1.25rem;
+	}
+}
+
+@media only screen and (max-width: 401px) {
+	.info.padding {
+		padding: 1rem 1rem;
+	}
+}
+
 .info .button {
+	word-break: normal;
 	font-weight: 600;
 }

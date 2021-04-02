@@ -65,31 +65,6 @@ body {
 	}
 }
 
-/* helpers */
-
-.flex {
-	display: flex;
-}
-
-.flex-center {
-	display: flex;
-	align-items: center;
-}
-
-.flex-grow {
-	display: flex;
-	flex-grow: 1;
-}
-
-.global-big-bee {
-	z-index: -50;
-	position: fixed;
-	width: 150vh;
-	overflow: hidden;
-	right: -22vw;
-	top: 0;
-}
-
 /* bassics */
 
 a {
@@ -108,10 +83,67 @@ p {
 	color: #b3b3b3;
 }
 
+/* helpers */
+
+.flex {
+	display: flex;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-grow {
+	display: flex;
+	flex-grow: 1;
+}
+
+.dsp-i {
+	display: inline;
+}
+
+.dsp-b {
+	display: block;
+}
+
+.dsp-ib {
+	display: inline-block;
+}
+
+.rounded {
+	border-radius: 5px;
+}
+
+.rounded-small {
+	border-radius: 4px;
+}
+
+.rounded-large {
+	border-radius: 8px;
+}
+
+.rounded-x-large {
+	border-radius: 15px;
+}
+
+.global-big-bee {
+	z-index: -50;
+	position: fixed;
+	width: 150vh;
+	overflow: hidden;
+	right: -22vw;
+	top: 0;
+}
+
 /* text helpers */
 
 .txt-space {
 	letter-spacing: 0.2rem;
+}
+
+.txt-space-small {
+	letter-spacing: 0.1rem;
 }
 
 .txt-space-large {
@@ -173,8 +205,8 @@ p {
 }
 
 .nav-item {
-	margin-left: .35rem;
-	padding: .45rem .8rem;
+	margin-left: 0.35rem;
+	padding: 0.45rem 0.8rem;
 	border-radius: 4px;
 	color: #fff;
 	transition: all 0.1s ease-in-out;
@@ -182,11 +214,11 @@ p {
 }
 
 .nav-item .txt-space {
-	padding-left: .2rem;
+	padding-left: 0.2rem;
 }
 
 .nav .nav-items.right .nav-item {
-	padding: .25rem;
+	padding: 0.25rem;
 	margin-left: 0.75rem;
 }
 
@@ -267,8 +299,9 @@ p {
 	color: #cccccc;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
+	text-align: center;
 	background-color: #16222c;
-	padding: 10px 25px;
+	padding: 11px 25px 10px 25px;
 	border-radius: 4px;
 	border: 1px solid #1d2837;
 	cursor: pointer;
@@ -300,4 +333,35 @@ p {
 
 .button.txt-space {
 	padding-right: 21px;
+}
+
+.button.white {
+	background-color: #fff;
+	border-color: transparent;
+	color: rgba(44, 61, 84, 0.96);
+}
+
+.button.white:hover {
+	background-color: #fff8de;
+}
+
+.button.white:active {
+	color: rgba(44, 61, 84, 1);
+	background-color: rgba(255, 255, 255, 0.55);
+}
+
+.info {
+	position: relative;
+	/* background-color: #e9bb06; */
+	padding: 1rem 0;
+	background-color: rgba(249, 200, 6, 0.9);
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="28" height="49" viewBox="0 0 28 49"%3E%3Cg fill-rule="evenodd"%3E%3Cg id="hexagons" fill="%23ffd121" fill-opacity="0.4" fill-rule="nonzero"%3E%3Cpath d="M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+.info.padding {
+	padding: 1rem 2rem;
+}
+
+.info .button {
+	font-weight: 600;
 }

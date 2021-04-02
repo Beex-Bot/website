@@ -353,7 +353,6 @@ p {
 .info {
 	position: relative;
 	overflow-x: hidden;
-	word-break: break-all;
 	/* background-color: #e9bb06; */
 	padding: 1rem 0;
 	background-color: rgba(249, 200, 6, 0.9);
@@ -370,13 +369,23 @@ p {
 	}
 }
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 550px) {
 	.info.padding {
 		padding: 1rem 1rem;
+	}
+
+	.info > .flex-center {
+		text-align: center;
+		display: block;
+	}
+
+	.info .button {
+		display: block;
 	}
 }
 
 .info .button {
+	display: block;
 	word-break: normal;
 	font-weight: 600;
 }

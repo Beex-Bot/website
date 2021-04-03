@@ -359,7 +359,7 @@ p {
 }
 
 .button.shadow:active {
-	box-shadow: 0 0 5px rgba(10, 10, 10, 0.49);
+	box-shadow: 0 0 4px rgba(10, 10, 10, 0.52);
 }
 
 .info {

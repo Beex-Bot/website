@@ -83,6 +83,11 @@ p {
 	color: #b3b3b3;
 }
 
+img {
+	max-width: 100%;
+	border: none;
+}
+
 /* helpers */
 
 .flex {
@@ -127,7 +132,12 @@ p {
 	border-radius: 15px;
 }
 
+.shadow {
+	box-shadow: 0 0 8px rgba(10, 10, 10, 0.3);
+}
+
 .global-big-bee {
+	max-width: none;
 	z-index: -50;
 	position: fixed;
 	width: 150vh;
@@ -137,6 +147,26 @@ p {
 }
 
 /* text helpers */
+
+.txt-left {
+	text-align: left;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-right {
+	text-align: right;
+}
+
+.txt-white {
+	color: #fff;
+}
+
+.txt-primary {
+	color: rgb(255, 214, 31);
+}
 
 .txt-space {
 	letter-spacing: 0.2rem;
@@ -162,6 +192,13 @@ p {
 	font-family: Roboto, sans-serif;
 	color: #fff;
 	font-size: 3.25rem;
+	font-weight: 400;
+}
+
+.title-small {
+	font-family: Roboto, sans-serif;
+	color: #fff;
+	font-size: 2.75rem;
 	font-weight: 400;
 }
 

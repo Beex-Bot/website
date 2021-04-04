@@ -3,3 +3,9 @@
     margin: .75rem 0;
     width: 100%;
 }
+
+.line {
+    display: block;
+    height: 5vw;
+    margin: 2rem auto .5rem auto;
+}

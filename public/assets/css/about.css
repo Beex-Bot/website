@@ -1,17 +1,13 @@
+.section {
+    margin-bottom: 2rem;
+}
+
 .section .img {
     display: block;
     margin: .75rem 0;
     width: 100%;
 }
 
-.line {
-    display: block;
-    height: 5vw;
-    margin: 2rem auto .5rem auto;
-}
-
-@media only screen and (max-width: 1180px) {
-    .line {
-        display: none;
-    }
+.section .text {
+    margin: .75rem 0;
 }

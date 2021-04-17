@@ -381,11 +381,6 @@ main.container, #pageContainer {
     color: rgba(178, 188, 202, 0.92);
 }
 
-.footer a:hover img {
-	-webkit-filter: brightness(200%);
-	filter: brightness(200%);
-}
-
 .footer .separator {
     color: rgba(127, 135, 146, 0.23);
     margin: 0 8px;
@@ -399,8 +394,9 @@ main.container, #pageContainer {
     margin-left: .65rem;
 }
 
-.footer .socials a .fa {
-    font-size: 2.15rem;
+.footer .socials a:hover img {
+	-webkit-filter: brightness(200%);
+	filter: brightness(200%);
 }
 
 .footer .legal {

@@ -274,6 +274,18 @@ img {
 	font-weight: 600;
 }
 
+.nav-item .icon {
+	display: inline-flex;
+	align-items: center;
+}
+
+.nav-item .material-icons {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: inherit;
+	margin-left: 6px;
+}
+
 .nav-item img {
 	-webkit-transition: -webkit-filter 0.15s ease-in-out;
 }

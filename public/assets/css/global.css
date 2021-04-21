@@ -552,3 +552,43 @@ main.container, #pageContainer {
 	padding: 1rem 1.5rem;
 	border-radius: 5px;
 }
+
+.cards .card {
+	margin-bottom: 1rem;
+}
+
+.person {
+	display: flex;
+	align-items: center;
+}
+
+.card .person .pfp {
+	height: 40px;
+	width: 40px;
+}
+
+.person .name {
+	margin-left: 10px;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.card .date {
+	margin-left: 8px;
+	font-size: 0.75rem;
+	color: #72767d;
+}
+
+.card .percent {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: rgb(59, 160, 72);
+}
+
+.card .desc {
+	margin: 1rem 0 1rem 0;
+}
+
+.card .video {
+	max-width: 100%;
+}

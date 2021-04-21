@@ -82,6 +82,7 @@ h3 {
 
 p {
 	color: #7f8792;
+	font-size: 18px;
 }
 
 img {
@@ -357,7 +358,7 @@ main.container, #pageContainer {
     margin-top: 3rem;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(27, 39, 51, 0.95);
+    background-color: #111921;
     color: rgb(127, 135, 146, 0.6);
 }
 
@@ -412,7 +413,7 @@ main.container, #pageContainer {
 }
 
 .footer .legal {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: #0e141b;
     color: rgba(127, 135, 146, 0.45);
     font-size: 86%;
 }
@@ -542,4 +543,12 @@ main.container, #pageContainer {
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
+}
+
+/* cards */
+
+.card {
+	background-color: #16222c;
+	padding: 1rem 1.5rem;
+	border-radius: 5px;
 }

@@ -11,3 +11,13 @@
 .section .text {
     margin: .75rem 0;
 }
+
+@media only screen and (max-width: 811px) {
+    #pageContainer .section:not(:first-child) .col.m5 {
+        display: none;
+    }
+
+    #pageContainer .section:not(:first-child) .col.m7 {
+        width: 100%;
+    }
+}

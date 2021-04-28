@@ -20,11 +20,6 @@ function scrollFunction() {
 		$("nav").style.backgroundColor = "transparent";
 		$("nav").style.backdropFilter = "none";
 	}
-	if(document.body.scrollBottom > 5 || document.documentElement.scrollBottom > 5) {
-		$(".bottom-bar")[0].style.display = "hidden";
-	} else {
-		$(".bottom-bar")[0].style.display = "block";
-	}
 }
 
 function mobileNav(action) {

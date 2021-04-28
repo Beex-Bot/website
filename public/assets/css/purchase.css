@@ -1,0 +1,35 @@
+.payment-plans .payment-plan {
+	padding: 0;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.payment-plan.selected {
+	border: 2px solid #e8bb04;
+}
+
+.payment-plan .contain {
+	padding: 1.25rem 1rem;
+}
+
+.payment-plan > .subhead {
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 500;
+	margin: 0.55rem auto 0 auto;
+}
+
+.payment-plan .price {
+	font-size: 2.75rem;
+	margin: 0.5rem auto;
+}
+
+.payment-plan .payment-info {
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	font-size: 98%;
+	margin: 1.25rem auto 1.5rem auto;
+}
+
+.bottom-bar {
+    
+}

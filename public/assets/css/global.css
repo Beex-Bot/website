@@ -503,6 +503,14 @@ main.container, #pageContainer {
 	box-shadow: 0 0 4px rgba(10, 10, 10, 0.52);
 }
 
+.info .button, .card .button {
+	display: block;
+	word-break: normal;
+	font-weight: 600;
+}
+
+/* info */
+
 .info {
 	position: relative; 
 	overflow-x: hidden;
@@ -535,12 +543,6 @@ main.container, #pageContainer {
 	.info .button {
 		display: block;
 	}
-}
-
-.info .button {
-	display: block;
-	word-break: normal;
-	font-weight: 600;
 }
 
 /* pfp */
@@ -597,4 +599,16 @@ main.container, #pageContainer {
 
 .card .video {
 	max-width: 100%;
+}
+
+/* bottom bar */
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 120%;
+    overflow-y: hidden;
+    height: 5rem;
+    background-color: #16222c;
+    box-shadow: 0 -2px 18px rgba(10, 10, 10, 0.25);
 }

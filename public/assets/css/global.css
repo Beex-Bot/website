@@ -610,6 +610,20 @@ main.container, #pageContainer {
 	max-width: 100%;
 }
 
+/* breadcrumbs */
+
+.breadcrumbs {
+	margin: 0.75rem 0;
+}
+
+.breadcrumb.active {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs .material-icons {
+	margin: 0 0.25rem;
+}
+
 /* bottom bar */
 
 .bottom-bar {

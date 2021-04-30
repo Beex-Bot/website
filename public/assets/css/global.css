@@ -558,6 +558,12 @@ button.button {
 	margin-bottom: 0.5rem;
 }
 
+.form .small-text {
+	font-size: 90%;
+	color: rgba(134, 143, 153, 0.5);
+	font-family: 'Open Sans';
+}
+
 /* inputs */
 
 .input {
@@ -570,7 +576,7 @@ button.button {
 	font-size: 0.95rem;
 	color: inherit;
 	width: 100%;
-	max-width: 400px;
+	max-width: 410px;
 	box-sizing: border-box;
 	color: #cccccc;
 	background-color: #17222f;
@@ -587,7 +593,7 @@ button.button {
 .input:focus {
 	outline: 0;
 	/* 	border-color: #2b394a; */
-	box-shadow: 0 0 0 2px rgb(232, 187, 4, 0.9);
+	box-shadow: 0 0 0 2px rgb(232, 187, 4, 0.92);
 }
 
 .input::placeholder {

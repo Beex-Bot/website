@@ -72,3 +72,11 @@
 .form .row .side a:hover {
 	text-decoration: underline;
 }
+
+.qr-code {
+	display: inline-block;
+	background-color: #fff;
+	padding: 0.5rem;
+	border-radius: 4px;
+	line-height: 0;
+}

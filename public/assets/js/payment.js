@@ -1,5 +1,7 @@
 function backToDetails() {
     $('details').style.display = "block";
+    $('detailsInputs').style.display = "block";
+    $('detailsLoading').style.display = "none";
     $('payment').style.display = "none";
 }
 

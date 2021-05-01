@@ -190,6 +190,17 @@ img {
 	color: rgb(255, 214, 31);
 }
 
+.txt-nw {
+	white-space: nowrap;
+    overflow: hidden;
+}
+
+.txt-truncate {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .txt-space {
 	letter-spacing: 0.2rem;
 }

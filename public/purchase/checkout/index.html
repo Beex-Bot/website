@@ -64,7 +64,9 @@
             <div class="breadcrumbs flex-center">
                 <a class="breadcrumb" href="../">Choose plan</a>
                 <span class="material-icons"> chevron_right </span>
-                <a class="breadcrumb active" href="./">Checkout</a>
+                <a class="breadcrumb active" id="checkoutBreadcrumb" onclick="backToDetails()">Checkout</a>
+                <span class="material-icons"> chevron_right </span>
+                <a class="breadcrumb" id="paymentBreadcrumb" onclick="validateDetails()">Payment</a>
             </div>
 
             <section style="margin-top: 1.5rem;">

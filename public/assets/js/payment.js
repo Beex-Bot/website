@@ -1,4 +1,6 @@
 function backToDetails() {
+    $('checkoutBreadcrumb').classList.add('active');
+    $('paymentBreadcrumb').classList.remove('active');
     $('details').style.display = "block";
     $('detailsInputs').style.display = "block";
     $('detailsLoading').style.display = "none";
@@ -6,6 +8,8 @@ function backToDetails() {
 }
 
 function validateDetails() {
+    $('paymentBreadcrumb').classList.add('active');
+    $('checkoutBreadcrumb').classList.remove('active');
     $('detailsInputs').style.display = "none";
     $('detailsLoading').style.display = "block";
     setTimeout(() => {

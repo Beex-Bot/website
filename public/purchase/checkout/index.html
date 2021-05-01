@@ -67,19 +67,42 @@
                 <a class="breadcrumb active" href="./">Checkout</a>
             </div>
 
-            <section style="margin-top: 2rem;">
-
+            <section style="margin-top: 1.5rem;">
+                <div class="plan-details card shadow flex-center">
+                    <img src="https://i.fiery.me/xBp4R.svg" height="48px" title="BEEX App icon"><span class="name">Lifetime key - single machine (1x)</span>
+                    <span class="flex-grow"></span>
+                    <span class="price">1 ETH</span>
+                </div>
+            </section>
+        
+            <section style="margin-top: 1.5rem;">
+        
                 <form class="form card shadow">
 
                     <h2 style="margin-top: 0.5rem;">Payment details</h2>
-        
-                    <label class="label">Email*</label>
-                    <input class="input dsp-b" type="email" placeholder="barryb@example.com" validate required autofocus>
-                    <label class="label">Name*</label>
-                    <input class="input dsp-b" type="text" placeholder="Barry B. Benson" required>
-                    <label class="label">Discord Username</label>
-                    <input class="input dsp-b" type="text" placeholder="mindyourbeexwax#3621">
 
+                    <div class="error" style="display: none;" id="error">
+                        Input error
+                    </div>
+        
+                    <div class="row">
+        
+                        <div class="col s12 m6">
+                            <label class="label">Email*</label>
+                            <input name="email" class="input dsp-b" type="email" placeholder="barryb@example.com" validate required autofocus>
+                            <label class="label">Name*</label>
+                            <input name="name" class="input dsp-b" type="text" placeholder="Barry B. Benson" required>
+                            <label class="label">Discord Username</label>
+                            <input name="discord" class="input dsp-b" type="text" placeholder="mindyourbeexwax#3621">
+                            <label class="label">Refund Address</label>
+                            <input name="refund" class="input dsp-b" type="text" placeholder="0x6ef3E93D8aFc0cF14039382d6d4c6Dfb52E6304b">
+                        </div>
+                        <div class="col s12 m6 side">
+                            <h3 class="title">Disclaimer</h3>
+                            <p>Be sure to <a href="/discord/" target="_blank">join our Discord</a> server to recive the client role.</p>
+                            <p>Payment must be <b><i>exactly</i> 1.00000 ethereum</b>.</p>
+                        </div>
+                    </div>
                     <div class="bottom flex-center">
                         <span class="small-text">*required</span>
                         <span class="flex-grow"></span>
@@ -87,7 +110,7 @@
                     </div>
         
                 </form>
-
+        
             </section>
 
         </div>

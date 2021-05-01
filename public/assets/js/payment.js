@@ -12,3 +12,7 @@ function validateDetails() {
         $('payment').style.display = "block";
     }, 700);
 }
+
+function submitPayment() {
+    alert('You did it!');
+}

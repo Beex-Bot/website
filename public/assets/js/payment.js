@@ -1,4 +1,5 @@
 function backToDetails() {
+    document.title = "Checkout &bullet; BEEX - The swiss army knife of pumps.";
     $('checkoutBreadcrumb').classList.add('active');
     $('paymentBreadcrumb').classList.remove('active');
     $('details').style.display = "block";
@@ -13,6 +14,7 @@ function validateDetails() {
     $('detailsInputs').style.display = "none";
     $('detailsLoading').style.display = "block";
     setTimeout(() => {
+        document.title = "Payment &bullet; BEEX - The swiss army knife of pumps.";
         $('detailsLoading').style.display = "block";
         $('details').style.display = "none";
         $('payment').style.display = "block";

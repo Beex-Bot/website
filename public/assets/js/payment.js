@@ -18,9 +18,7 @@ function validateDetails() {
         $('detailsLoading').style.display = "block";
         $('details').style.display = "none";
         $('payment').style.display = "block";
-    }, 700);
+        countdown("timer", 10, 0);
+    }, 650);
 }
 
-function submitPayment() {
-    alert('You did it!');
-}

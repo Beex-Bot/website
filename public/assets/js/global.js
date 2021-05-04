@@ -38,30 +38,24 @@ function mobileNav(action) {
 	}
 }
 
-function countdown(elementName, minutes, seconds)
-{
-    var element, endTime, hours, mins, msLeft, time;
+var globalTimer;
 
-    function twoDigits(n)
-    {
-        return (n <= 9 ? "0" + n : n);
-    }
-
-    function updateTimer()
-    {
-        msLeft = endTime - (+new Date);
-        if (msLeft < 1000) {
-            element.innerHTML = "Time is up!";
-        } else {
-            time = new Date(msLeft);
-            hours = time.getUTCHours();
-            mins = time.getUTCMinutes();
-            element.innerHTML = (hours ? hours + ':' + twoDigits(mins) : mins) + ':' + twoDigits(time.getUTCSeconds());
-            setTimeout(updateTimer, time.getUTCMilliseconds() + 500);
-        }
-    }
-
-    element = $(elementName);
-    endTime = (+new Date) + 1000 * (60*minutes + seconds) + 500;
-    updateTimer();
+function startTimer(duration, display, killTimer) {
+    var start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+    function timer() {
+        diff = duration - (((Date.now() - start) / 1000) | 0);
+        minutes = (diff / 60) | 0;
+        seconds = (diff % 60) | 0;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        display.textContent = minutes + ":" + seconds; 
+        if (diff <= 0) {
+            start = Date.now() + 1000;
+		}
+    };
+    timer();
+    globalTimer = setInterval(timer, 1000);
 }

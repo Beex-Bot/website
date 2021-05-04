@@ -72,6 +72,12 @@
 	text-decoration: underline;
 }
 
+@media only screen and (max-width: 601px) {
+	.side {
+		margin: 0.85rem auto 0.25rem auto;
+	}
+}
+
 .qr-code {
 	display: inline-block;
 	background-color: #fff;

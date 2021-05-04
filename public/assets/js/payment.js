@@ -1,3 +1,12 @@
+function setErr(message) {
+    $('error').textContent = message;
+    $('error').style.display = "block";
+}
+
+function removeErr() {
+    $('error').style.display = "none";
+}
+
 function backToDetails() {
     document.title = "Checkout • BEEX - The swiss army knife of pumps.";
     $('checkoutBreadcrumb').classList.add('active');

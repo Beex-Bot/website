@@ -85,3 +85,20 @@
 	border-radius: 4px;
 	line-height: 0;
 }
+
+.big-icon {
+	font-size: 3.55rem;
+}
+
+.big-icon.green {
+	color: #43a047;
+}
+
+#complete .title {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.75rem;
+	font-weight: 600;
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+	color: rgba(255, 255, 255, 0.86);
+}

@@ -77,9 +77,9 @@
     
         <div class="container"  style="margin-top: 1.25rem;">
             
-            <div class="title txt-space txt-upper">Purchase</div>
+            <div class="title txt-space txt-upper" id="title">Purchase</div>
 
-            <div class="breadcrumbs flex-center">
+            <div class="breadcrumbs flex-center" id="breadcrumbs">
                 <a class="breadcrumb" href="../">Choose plan</a>
                 <span class="material-icons"> chevron_right </span>
                 <a class="breadcrumb active" id="checkoutBreadcrumb" onclick="backToDetails()">Checkout</a>
@@ -109,13 +109,13 @@
         
                         <div class="col s12 m6">
                             <label class="label">Email*</label>
-                            <input name="email" class="input dsp-b" type="email" placeholder="barryb@example.com" validate required autofocus>
+                            <input name="email" id="email" class="input dsp-b" type="email" placeholder="barryb@example.com" validate required autofocus>
                             <label class="label">Name*</label>
-                            <input name="name" class="input dsp-b" type="text" placeholder="Barry B. Benson" required>
+                            <input name="name" id="name" class="input dsp-b" type="text" placeholder="Barry B. Benson" required>
                             <label class="label">Discord Username</label>
-                            <input name="discord" class="input dsp-b" type="text" placeholder="mindyourbeexwax#3621">
+                            <input name="discord" id="discord" class="input dsp-b" type="text" placeholder="mindyourbeexwax#3621">
                             <label class="label">Refund Address</label>
-                            <input name="refund" class="input dsp-b" type="text" placeholder="0x6ef3E93D8aFc0cF14039382d6d4c6Dfb52E6304b">
+                            <input name="refund" id="refund" class="input dsp-b" type="text" placeholder="0x6ef3E93D8aFc0cF14039382d6d4c6Dfb52E6304b">
                         </div>
                         <div class="col s12 m6 side">
                             <h3 class="title" style="margin-top: 0;">Disclaimer</h3>
@@ -158,6 +158,16 @@
                         <a class="button" onclick="backToDetails()">Back</a>
                         <span class="flex-grow"></span>
                         Awaiting Payment...&nbsp;<b id="timer">10:00</b>
+                    </div>
+                    
+                </div>
+
+                <div class="card shadow" style="display: none;" id="complete">
+                    
+                    <div class="flex-center-all txt-center" style="margin: 0.75rem 0 2rem 0;">
+                        <span class="material-icons big-icon green"> check_circle </span>
+                        <h2 class="title">Purchase Complete</h2>
+                        <p>We have received your payment, the product has been sent to <span id="sentEmail">xxxxx@gmail.com</span></p>
                     </div>
                     
                 </div>
